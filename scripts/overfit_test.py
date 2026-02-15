@@ -101,7 +101,7 @@ def main() -> None:
         warmup_steps=20,
         log_every=10,
         save_every=200,
-        precision="bf16",
+        precision="fp16",
     )
     tokenizer_path = Path(args.tokenizer_path) if args.tokenizer_path else Path(args.output_dir) / "tokenizer.nfx"
     start_time = time.perf_counter()
