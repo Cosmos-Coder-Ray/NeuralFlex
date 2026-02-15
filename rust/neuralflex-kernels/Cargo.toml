@@ -1,0 +1,8 @@
+[package]
+name = "neuralflex-kernels"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "neuralflex_kernels"
+crate-type = ["rlib"]
