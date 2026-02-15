@@ -1,0 +1,7 @@
+mode: latency
+batch_size: 1
+max_context: 4096
+temperature: 0.8
+top_p: 0.95
+use_kv_cache: true
+quantization: int4_weight_only

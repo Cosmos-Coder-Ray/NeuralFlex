@@ -1,0 +1,16 @@
+name: neuralflex-slm-moe-1
+vocab_size: 64000
+hidden_size: 2048
+num_layers: 24
+max_position_embeddings: 4096
+attention:
+  num_heads: 16
+  num_kv_heads: 4
+  head_dim: 128
+  use_flash: true
+  sliding_window: null
+moe:
+  num_experts: 8
+  top_k: 2
+  capacity_factor: 1.25
+  aux_loss_coef: 0.01
