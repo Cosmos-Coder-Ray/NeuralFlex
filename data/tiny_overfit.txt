@@ -1,0 +1,6 @@
+neuralflex builds dense transformers with grouped query attention
+this tiny corpus is intentionally repetitive for fast overfitting
+neuralflex builds dense transformers with grouped query attention
+this tiny corpus is intentionally repetitive for fast overfitting
+neuralflex builds dense transformers with grouped query attention
+this tiny corpus is intentionally repetitive for fast overfitting
